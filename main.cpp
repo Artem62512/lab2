@@ -5,7 +5,8 @@
 
 using namespace std;
 
-float line (int x)
+// определение знчения функции "у" в зависимотси от аргумента "х", по заданному графику.
+float line (int x) 
 {
     float y=0;
     if(x >= -10 && x < -8)
@@ -31,6 +32,7 @@ float line (int x)
     return y;
 }
 
+// цикл для вывода значений функции, определяемой графиком.
 float main()
 {
     cout << "START" << endl;
